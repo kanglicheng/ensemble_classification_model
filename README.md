@@ -37,9 +37,17 @@ Details can be found in the slide.
 
 ## Experimental Results
 An ensemble model consists of 5 single NNs is trained on MNIST training dataset, and then tested on MNIST test dataset, FASHION-MNIST and NOT-MNIST to demonstrate the out-of-distribution detection effect. The model is trained a total of 20 epochs. The following figures show two metrics-- testing accuray and averaged probability score of predicted labels. Both the ensemble net and single net are evaluated with these two metrics.  
-![]()
-![]()
-![]()
+1. Brier Score and Adam Optimizer
+
+![Brier Score and Adam Optimizer](https://github.com/liyin2015/ensemble_classification_model/blob/master/figures/brier_score_adam.png)
+
+2. Brier Score and SGD Optimizer
+
+![Brier Score and SGD Optimizer](https://github.com/liyin2015/ensemble_classification_model/blob/master/figures/brier_score_sgd.png)
+
+3. Softmax Cross Entropy and Adam Optimizer
+
+![Softmax Cross Entropy and Adam Optimizer](https://github.com/liyin2015/ensemble_classification_model/blob/master/figures/softmax_cross_entropy_adam.png)
 
 
 ## Takesways
