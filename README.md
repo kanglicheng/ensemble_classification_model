@@ -29,6 +29,9 @@ Details can be found in the slide.
 
 ## Experimental Results
 An ensemble model consists of 5 single NNs is trained on MNIST training dataset, and then tested on MNIST test dataset, FASHION-MNIST and NOT-MNIST to demonstrate the out-of-distribution detection effect. The model is trained a total of 20 epochs. The following figures show two metrics-- testing accuray and averaged probability score of predicted labels. Both the ensemble net and single net are evaluated with these two metrics.  
+![]()
+![]()
+![]()
 
 
 ## Takesways
@@ -37,8 +40,8 @@ An ensemble model consists of 5 single NNs is trained on MNIST training dataset,
 3. To make a single model more resilient to out-of-distribution examples, avoid overfitting the model.
 
 
-## Notice
-Fork to add more cases such as regression or more related experiments.
+## Help Needed
+Fork to add more cases such as regression task, adversarial learning, and/or more related experiments.
 
 ## References
 [1] Lakshminarayanan, Balaji, Alexander Pritzel, and Charles Blundell. "Simple and scalable predictive uncertainty estimation using deep ensembles." Advances in neural information processing systems. 2017.
