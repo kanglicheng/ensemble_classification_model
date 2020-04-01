@@ -10,10 +10,18 @@ Follow [Simple and scalable predictive uncertainty estimation using deep ensembl
 Three datasets are used to demonstration purpose, including
 * [MNIST](https://pytorch.org/docs/stable/torchvision/datasets.html#mnist)
 
+![sample mnist images and labels](https://github.com/liyin2015/ensemble_classification_model/blob/master/figures/mnist.png)
+
 
 * [FASHION-MNIST](https://pytorch.org/docs/stable/torchvision/datasets.html#fashion-mnist)
 
+![sample fashion-mnist images and labels](https://github.com/liyin2015/ensemble_classification_model/blob/master/figures/fashion_mnist.png)
+
+
 * [NOT-MNIST](http://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html)
+
+![sample not-mnist images and labels](https://github.com/liyin2015/ensemble_classification_model/blob/master/figures/not_mnist.png)
+
 
 ## Optimizers
 Two of the most conventional and popular optimizers are tried in the experiments: 
